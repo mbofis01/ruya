@@ -79,7 +79,7 @@ a { color: inherit; }
 .hero-text { display: flex; flex-direction: column; gap: 26px; }
 .kicker { display: flex; align-items: center; gap: 14px; font-size: 13px; letter-spacing: .22em; text-transform: uppercase; color: var(--primary-gold); font-weight: 600; }
 .kicker::before { content: ""; width: 40px; height: 1px; background: var(--primary-gold); }
-.hero h1 { font-size: clamp(64px, 10vw, 136px); line-height: .9; letter-spacing: -.02em; }
+.hero h1 { font-size: clamp(48px, 7.5vw, 102px); line-height: .9; letter-spacing: -.02em; }
 .hero h1 .line { display: block; }
 .hero h1 .hoca { font-style: italic; font-weight: 400; padding-left: .55em; }
 .hero .tagline { font-family: var(--serif); font-style: italic; font-size: clamp(22px, 2.4vw, 28px); color: #E5ECF5; max-width: 30ch; }
@@ -198,7 +198,19 @@ a { color: inherit; }
 .prose input::placeholder { color: #8F9BAD; }
 .prose select { appearance: none; -webkit-appearance: none; padding-right: 22px; background: linear-gradient(45deg, transparent 50%, var(--gold-text) 50%) right 8px center / 6px 6px no-repeat, linear-gradient(-45deg, transparent 50%, var(--gold-text) 50%) right 2px center / 6px 6px no-repeat; cursor: pointer; }
 .prose input:focus, .prose select:focus, .dream:focus { outline: none; border-color: var(--primary-gold); background-color: rgba(212, 175, 55, .08); }
-.w-name { width: 9em; } .w-age { width: 3.2em; } .w-country { width: 7.5em; }
+.w-name { width: 9em; } .w-age { width: 3.2em; } .w-country { width: 7.5em; } .w-town { width: 7.5em; } .w-job { width: 8.5em; } .w-faith { width: 7.5em; }
+.lined { display: flex; flex-direction: column; gap: 6px; margin-top: 26px; font-family: var(--serif); font-size: clamp(20px, 2.2vw, 24px); color: var(--text-dark); }
+.lined input { width: 100%; font: italic 20px var(--serif); color: var(--secondary-navy); background: transparent; border: 0; border-bottom: 1.5px solid rgba(91, 132, 177, .45); border-radius: 0; padding: 4px 4px; min-height: 44px; }
+.lined input::placeholder { color: #8F9BAD; }
+.lined input:focus { outline: none; border-color: var(--primary-gold); background-color: rgba(212, 175, 55, .08); }
+.film { border: 0; margin: 26px 0 0; padding: 0; font-family: var(--serif); font-size: clamp(20px, 2.2vw, 24px); color: var(--text-dark); }
+.film legend { padding: 0; line-height: 1.5; }
+.film .choices { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; margin-top: 10px; }
+.film .choices label { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font-family: var(--sans); font-size: 16px; cursor: pointer; }
+.film .choices input[type=radio] { width: 20px; height: 20px; margin: 0; accent-color: var(--primary-gold); }
+.film .which { flex: 1 1 220px; }
+.film .which input { width: 100%; font: italic 18px var(--serif); color: var(--secondary-navy); background: transparent; border: 0; border-bottom: 1.5px solid rgba(91, 132, 177, .45); border-radius: 0; padding: 4px; min-height: 44px; }
+.film .which input:focus { outline: none; border-color: var(--primary-gold); }
 .dream-label { display: block; font-family: var(--serif); font-size: clamp(20px, 2.2vw, 24px); margin-top: 30px; color: var(--text-dark); }
 .dream { width: 100%; margin-top: 8px; min-height: 280px; resize: vertical; font-family: var(--serif); font-size: 20px; line-height: 40px; color: var(--secondary-navy); padding: 0 4px; border: 0; background: repeating-linear-gradient(transparent 0 39px, rgba(91, 132, 177, .35) 39px 40px); background-attachment: local; }
 .dream::placeholder { color: #8F9BAD; font-style: italic; }
@@ -421,14 +433,35 @@ a { color: inherit; }
           <label class="sr" for="rumuz">Rumuz</label><input class="w-name" id="rumuz" name="rumuz" type="text" placeholder="Gece Yolcusu" required>
           diyebilirsiniz.
           <label class="sr" for="yas">Yaş</label><input class="w-age" id="yas" name="yas" type="number" min="1" max="120" placeholder="32">
-          yaşındayım,
-          <label class="sr" for="ulke">Bulunduğunuz ülke</label><input class="w-country" id="ulke" name="ulke" type="text" placeholder="Belçika">
-          'da yaşıyorum.
-          <label class="sr" for="cinsiyet">Cinsiyet (isteğe bağlı)</label><select id="cinsiyet" name="cinsiyet"><option value="">cinsiyet</option><option>kadın</option><option>erkek</option></select>
+          yaşında,
+          <label class="sr" for="cinsiyet">Cinsiyet</label><select id="cinsiyet" name="cinsiyet"><option value="">cinsiyet</option><option>kadın</option><option>erkek</option></select>
           ve
-          <label class="sr" for="medeni">Medeni durum (isteğe bağlı)</label><select id="medeni" name="medeni"><option value="">medeni durum</option><option>bekâr</option><option>evli</option><option>diğer</option></select>
+          <label class="sr" for="medeni">Evli ya da bekâr</label><select id="medeni" name="medeni"><option value="">medeni durum</option><option>bekâr</option><option>evli</option><option>diğer</option></select>
           biriyim.
+          Memleketim
+          <label class="sr" for="memleket">Memleket</label><input class="w-town" id="memleket" name="memleket" type="text" placeholder="Kayseri">,
+          şu an
+          <label class="sr" for="ulke">Yaşadığınız ülke</label><input class="w-country" id="ulke" name="ulke" type="text" placeholder="Belçika">
+          'da yaşıyorum.
+          Mesleğim
+          <label class="sr" for="meslek">Meslek</label><input class="w-job" id="meslek" name="meslek" type="text" placeholder="öğretmen">,
+          dinim
+          <label class="sr" for="din">Din</label><input class="w-faith" id="din" name="din" type="text" placeholder="yazınız">.
         </p>
+        <label class="lined">Alışkanlıklarım ve hobilerim:
+          <input type="text" name="hobiler" placeholder="Örn. sabah yürüyüşü, kitap okumak, bahçe işleri">
+        </label>
+        <label class="lined">Fobilerim, korktuğum şeyler:
+          <input type="text" name="fobiler" placeholder="Örn. yükseklik, kapalı alan, köpek">
+        </label>
+        <fieldset class="film">
+          <legend>Son günlerde bu rüyayla ilgili bir film ya da belgesel izledim mi?</legend>
+          <div class="choices">
+            <label><input type="radio" name="film" value="evet"> Evet</label>
+            <label><input type="radio" name="film" value="hayir"> Hayır</label>
+            <label class="which"><span class="sr">İzlediğiniz film ya da belgesel</span><input type="text" name="film_adi" placeholder="Evet ise hangisi?"></label>
+          </div>
+        </fieldset>
         <label class="dream-label" for="ruya">Gördüğüm rüya şöyleydi:</label>
         <textarea class="dream" id="ruya" name="ruya" placeholder="Kimler vardı, neresiydi, neler oldu, uyandığınızda ne hissettiniz?" required></textarea>
         <div class="sign">
@@ -459,7 +492,7 @@ a { color: inherit; }
         </details>
         <details>
           <summary>Bilgilerim kimseyle paylaşılır mı?</summary>
-          <p>Yayında yalnızca rumuzunuz ve rüyanız okunur. Yaş ve ülke gibi bilgiler sadece yorum içindir.</p>
+          <p>Yayında yalnızca rumuzunuz ve rüyanız okunur. Yaş, meslek, din ve diğer kişisel bilgiler yayında paylaşılmaz; yalnızca yorum için kullanılır.</p>
         </details>
       </div>
     </div>
