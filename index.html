@@ -279,6 +279,19 @@ a { color: inherit; }
 .nav-links .ruya-link { display: inline-flex; align-items: center; gap: 8px; }
 .nav-links .ruya-link .ruya-logo { width: 53px; height: 53px; object-fit: contain; }
 .ruya-link .ruya-logo { filter: drop-shadow(0 0 6px rgba(240, 200, 90, .35)); }
+/* ---------- Mobile fixes ---------- */
+html, body { overflow-x: clip; }
+.footer-links { flex-wrap: wrap; gap: 14px 24px; }
+@media (max-width: 640px) {
+  .nav { flex-wrap: nowrap; gap: 8px; }
+  .logo { font-size: 17px; gap: 8px; }
+  .logo-mark { width: 36px; height: 36px; }
+  .nav-links { flex-wrap: nowrap; gap: 10px; }
+  .nav-links a.ruya-link { display: inline-flex; font-size: 0; gap: 0; }
+  .nav-links .ruya-link .ruya-logo { width: 34px; height: 34px; }
+  .nav-links .btn { min-height: 40px; padding: 0 12px; font-size: 14px; white-space: nowrap; }
+  .ribbon { margin-left: 0; margin-right: 0; }
+}
 </style>
 </head>
 <body>
