@@ -1,0 +1,20 @@
+# Bünyamin Hoca · Rüya Yorumu
+
+> Bünyamin Hoca'nın rüya yorumu sitesi. İzleyicilerin gönderdiği rüyalar YouTube'da canlı yayında rumuzla yorumlanır. Site ayrıca bilim, psikoloji ve İslam kaynaklarına dayanan, kaynakçalı bir Rüya Ansiklopedisi içerir. Rüya yorumları bilgilendirme amaçlıdır; tıbbi veya psikolojik tavsiye yerine geçmez.
+
+## Ana sayfa
+- [Bünyamin Hoca · Rüya Yorumu](https://mbofis01.github.io/ruya/): Rüyanı gönder formu, sık sorulan sorular, ansiklopedi bölümleri
+
+## Rüya yazıları (kaynakçalı)
+- [Rüya Nedir, Neden Rüya Görürüz?](https://mbofis01.github.io/ruya/yazilar/ruya-nedir-neden-ruya-goruruz/): Bilim, psikoloji ve İslam açısından rüyanın ne olduğu ve neden rüya gördüğümüz.
+- [Her İnsan Rüya Görür mü?](https://mbofis01.github.io/ruya/yazilar/her-insan-ruya-gorur-mu/): Rüya görmek ile hatırlamak arasındaki fark; görme engelliler ve bebekler rüya görür mü?
+- [Bazı Rüyaları Hatırlarken Bazılarını Neden Hatırlamayız?](https://mbofis01.github.io/ruya/yazilar/ruyalari-neden-unuturuz/): Uyanma zamanı, duygular ve hafıza: bazı rüyalar neden akılda kalır, bazıları kalmaz?
+- [Rüyalarımızın Günlük Hayatımızla Nasıl Bir İlişkisi Vardır?](https://mbofis01.github.io/ruya/yazilar/ruyalar-ve-gunluk-hayat/): Gün içinde yaşadıklarımız rüyalarımıza nasıl yansır, rüyalar günümüzü nasıl etkiler?
+- [Sadık Rüya Nedir? Sadık Rüyalar Nasıl Anlaşılır?](https://mbofis01.github.io/ruya/yazilar/sadik-ruya-nedir/): Kur'an ve hadislerde sadık rüya; sadık rüya nasıl anlaşılır, geleceği haber verir mi?
+- [Peygamberlerin Rüyaları ile Diğer İnsanların Rüyaları Arasında Nasıl Bir Fark Vardır?](https://mbofis01.github.io/ruya/yazilar/peygamberlerin-ruyalari/): Peygamber rüyalarının vahiy niteliği ve diğer insanların rüyalarından farkı.
+- [Kur'an-ı Kerim'de Rüya ile İlgili Ayetlerin Tam Listesi](https://mbofis01.github.io/ruya/yazilar/kuranda-ruya-ayetleri/): Rüya ile ilgili 20 ayet: Arapça metinleri, Türkçe anlamları ve konuları.
+- [Hadislerde Rüya](https://mbofis01.github.io/ruya/yazilar/hadislerde-ruya/): Rüyaların çeşitleri, kötü rüyada yapılacaklar ve rüya anlatma adabı.
+- [Hz. Peygamber'in Yorumladığı Rüyalar ve Bu Yorumlarda Kullandığı Semboller](https://mbofis01.github.io/ruya/yazilar/hz-peygamberin-yorumladigi-ruyalar/): Süt, gömlek, kılıç, inek: hadislerdeki rüya yorumları ve semboller.
+
+## Rüya sembolleri
+- [A'dan Z'ye rüya sembolleri](https://mbofis01.github.io/ruya/ruya-sembolleri/): 59 sembolün geleneksel tabir anlayışına göre açıklaması
