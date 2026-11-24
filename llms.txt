@@ -5,6 +5,9 @@
 ## Ana sayfa
 - [Bünyamin Hoca · Rüya Yorumu](https://mbofis01.github.io/ruya/): Rüyanı gönder formu, sık sorulan sorular, ansiklopedi bölümleri
 
+## Hakkında
+- [Bünyamin Hoca kimdir?](https://mbofis01.github.io/ruya/hakkinda/): Hocanın hayat hikâyesi, eğitimi, radyo ve internet yayınları ve rüya yorumlama yöntemi
+
 ## Rüya yazıları (kaynakçalı)
 - [Rüya Nedir, Neden Rüya Görürüz?](https://mbofis01.github.io/ruya/yazilar/ruya-nedir-neden-ruya-goruruz/): Bilim, psikoloji ve İslam açısından rüyanın ne olduğu ve neden rüya gördüğümüz.
 - [Her İnsan Rüya Görür mü?](https://mbofis01.github.io/ruya/yazilar/her-insan-ruya-gorur-mu/): Rüya görmek ile hatırlamak arasındaki fark; görme engelliler ve bebekler rüya görür mü?
